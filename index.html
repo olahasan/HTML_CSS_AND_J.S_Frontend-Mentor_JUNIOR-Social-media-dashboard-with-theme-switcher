@@ -1,211 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern version, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social media dashboard with theme switcher</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
- <link rel="stylesheet" href="css/main.css"/>
+    <title>Frontend Mentor | Social media dashboard with theme switcher</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
 
-</head>
-<body class="dark light">
-
-<div class="all">
-  <div class="container">
-    <div class="box1">
-      <header>
-        <div class="text">
-          <h2 class="dark white" id="h2">Social Media Dashboard</h2>
-          <span>Total Followers: 23,004</span>
-        </div>
-        <div class="butn">
-          <span id="mood">Dark Mode</span>
-          <div class="button-mood active" id="button-mood"></div>
-        </div>
-      </header>
-      <div class="bigboxs">
-        <div class="box face">
-          <div class="head">
-            <img src="images/icon-facebook.svg"/>
-            <span class="darkk">@nathanf</span>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="dark light">
+    <div class="all">
+      <div class="container">
+        <div class="box1">
+          <header>
+            <div class="text">
+              <h2 class="dark white" id="h2">Social Media Dashboard</h2>
+              <span>Total Followers: 23,004</span>
+            </div>
+            <div class="butn">
+              <span id="mood">Dark Mode</span>
+              <div class="button-mood active" id="button-mood"></div>
+            </div>
+          </header>
+          <div class="bigboxs">
+            <div class="box face">
+              <div class="head">
+                <img
+                  loading="lazy"
+                  src="images/icon-facebook.svg"
+                  alt="facebook icon"
+                />
+                <span class="darkk">@nathanf</span>
+              </div>
+              <section>
+                <span class="numwhi">1987</span>
+                <span>Followers</span>
+              </section>
+              <footer>
+                <img
+                  loading="lazy"
+                  src="images/icon-up.svg"
+                  alt="arrow to up icon"
+                />
+                <span class="green">12 Today</span>
+              </footer>
+            </div>
+            <div class="box twitter">
+              <div class="head">
+                <img src="images/icon-twitter.svg" />
+                <span class="darkk">@nathanf</span>
+              </div>
+              <section>
+                <span class="numwhi">1044</span>
+                <span>Followers</span>
+              </section>
+              <footer>
+                <img src="images/icon-up.svg" />
+                <span class="green">99 Today</span>
+              </footer>
+            </div>
+            <div class="box ins">
+              <div class="head">
+                <img src="images/icon-instagram.svg" />
+                <span class="darkk">@realnathanf</span>
+              </div>
+              <section>
+                <span class="numwhi">11k</span>
+                <span>Followers</span>
+              </section>
+              <footer>
+                <img src="images/icon-up.svg" />
+                <span class="green">1099 Today</span>
+              </footer>
+            </div>
+            <div class="box you">
+              <div class="head">
+                <img src="images/icon-youtube.svg" />
+                <span class="darkk">Nathan F.</span>
+              </div>
+              <section>
+                <span class="numwhi">8239</span>
+                <span>Subscribers</span>
+              </section>
+              <footer>
+                <img src="images/icon-down.svg" />
+                <span class="red">144 Today</span>
+              </footer>
+            </div>
           </div>
-          <section>
-            <span class="numwhi">1987</span>
-            <span>Followers</span>
-          </section>
-          <footer>
-            <img src="images/icon-up.svg"/>
-            <span class="green">12 Today</span>
-          </footer>
         </div>
-        <div class="box twitter">
-          <div class="head">
-            <img src="images/icon-twitter.svg"/>
-            <span class="darkk">@nathanf</span>
+        <div class="box2">
+          <h3 class="dark white" id="h3">Overview - Today</h3>
+          <div class="boxxx">
+            <div class="boxx">
+              <div class="top">
+                <span class="black">Page Views</span>
+                <img
+                  loading="lazy"
+                  src="images/icon-facebook.svg"
+                  alt="facebook icon"
+                />
+              </div>
+              <div class="bottom">
+                <span class="pig numwhi">87</span>
+                <div class="right">
+                  <img
+                    loading="lazy"
+                    src="images/icon-up.svg"
+                    alt="arrow to up icon"
+                  />
+                  <span class="green">3%</span>
+                </div>
+              </div>
+            </div>
+            <div class="boxx">
+              <div class="top">
+                <span class="black">Likes</span>
+                <img
+                  loading="lazy"
+                  src="images/icon-facebook.svg"
+                  alt="facebook icon"
+                />
+              </div>
+              <div class="bottom">
+                <span class="pig numwhi">52</span>
+                <div class="right">
+                  <img
+                    loading="lazy"
+                    src="images/icon-down.svg"
+                    alt="arrow to down icon"
+                  />
+                  <span class="red">2%</span>
+                </div>
+              </div>
+            </div>
+            <div class="boxx">
+              <div class="top">
+                <span class="black">Likes</span>
+                <img
+                  loading="lazy"
+                  src="images/icon-instagram.svg"
+                  alt="instagram icon"
+                />
+              </div>
+              <div class="bottom">
+                <span class="pig numwhi">5462</span>
+                <div class="right">
+                  <img
+                    loading="lazy"
+                    src="images/icon-up.svg"
+                    alt="arrow to up icon"
+                  />
+                  <span class="green">2257%</span>
+                </div>
+              </div>
+            </div>
+            <div class="boxx">
+              <div class="top">
+                <span class="black">Profile Views</span>
+                <img
+                  loading="lazy"
+                  src="images/icon-instagram.svg"
+                  alt="instagram icon"
+                />
+              </div>
+              <div class="bottom">
+                <span class="pig numwhi">52k</span>
+                <div class="right">
+                  <img
+                    loading="lazy"
+                    src="images/icon-up.svg"
+                    alt="arrow to up icon"
+                  />
+                  <span class="green">1375%</span>
+                </div>
+              </div>
+            </div>
+            <div class="boxx">
+              <div class="top">
+                <span class="black">Retweets</span>
+                <img
+                  loading="lazy"
+                  src="images/icon-twitter.svg"
+                  alt="twitter icon"
+                />
+              </div>
+              <div class="bottom">
+                <span class="pig numwhi">117</span>
+                <div class="right">
+                  <img
+                    loading="lazy"
+                    src="images/icon-up.svg"
+                    alt="arrow to up icon"
+                  />
+                  <span class="green">303%</span>
+                </div>
+              </div>
+            </div>
+            <div class="boxx">
+              <div class="top">
+                <span class="black">Likes</span>
+                <img
+                  loading="lazy"
+                  src="images/icon-twitter.svg"
+                  alt="twitter icon"
+                />
+              </div>
+              <div class="bottom">
+                <span class="pig numwhi">507</span>
+                <div class="right">
+                  <img
+                    loading="lazy"
+                    src="images/icon-up.svg"
+                    alt="arrow to up icon"
+                  />
+                  <span class="green">553%</span>
+                </div>
+              </div>
+            </div>
+            <div class="boxx">
+              <div class="top">
+                <span class="black">Likes</span>
+                <img
+                  loading="lazy"
+                  src="images/icon-youtube.svg"
+                  alt="youtube icon"
+                />
+              </div>
+              <div class="bottom">
+                <span class="pig numwhi">107</span>
+                <div class="right">
+                  <img
+                    loading="lazy"
+                    src="images/icon-down.svg"
+                    alt="arrow to down icon"
+                  />
+                  <span class="red">19%</span>
+                </div>
+              </div>
+            </div>
+            <div class="boxx">
+              <div class="top">
+                <span class="black">Total Views</span>
+                <img
+                  loading="lazy"
+                  src="images/icon-youtube.svg"
+                  alt="youtube icon"
+                />
+              </div>
+              <div class="bottom">
+                <span class="pig numwhi">1407</span>
+                <div class="right">
+                  <img
+                    loading="lazy"
+                    src="images/icon-down.svg"
+                    alt="arrow to down icon"
+                  />
+                  <span class="red">12%</span>
+                </div>
+              </div>
+            </div>
           </div>
-          <section>
-            <span class="numwhi">1044</span>
-            <span>Followers</span>
-          </section>
-          <footer>
-            <img src="images/icon-up.svg"/>
-            <span class="green">99 Today</span>
-          </footer>
-        </div>
-        <div class="box ins">
-          <div class="head">
-            <img src="images/icon-instagram.svg"/>
-            <span class="darkk">@realnathanf</span>
-          </div>
-          <section>
-            <span class="numwhi">11k</span>
-            <span>Followers</span>
-          </section>
-          <footer>
-            <img src="images/icon-up.svg"/>
-            <span class="green">1099 Today</span>
-          </footer>
-        </div>
-        <div class="box you">
-          <div class="head">
-            <img src="images/icon-youtube.svg"/>
-            <span class="darkk">Nathan F.</span>
-          </div>
-          <section>
-            <span class="numwhi">8239</span>
-            <span>Subscribers</span>
-          </section>
-          <footer>
-            <img src="images/icon-down.svg"/>
-            <span class="red">144 Today</span>
-          </footer>
         </div>
       </div>
     </div>
-    <div class="box2">
-      <h3 class="dark white" id="h3">Overview - Today</h3>
-     <div class="boxxx">
-      <div class="boxx">
-        <div class="top">
-           <span class="black">Page Views</span>
-           <img src="images/icon-facebook.svg"/>
-        </div>
-        <div class="bottom">
-          <span class="pig numwhi">87</span>
-          <div class="right">
-            <img src="images/icon-up.svg"/>
-            <span class="green">3%</span>
-          </div>
-        </div>
-      </div>
-      <div class="boxx">
-        <div class="top">
-           <span class="black">Likes</span>
-           <img src="images/icon-facebook.svg"/>
-        </div>
-        <div class="bottom">
-          <span class="pig numwhi">52</span>
-          <div class="right">
-            <img src="images/icon-down.svg"/>
-            <span class="red">2%</span>
-          </div>
-        </div>
-      </div>
-      <div class="boxx">
-        <div class="top">
-           <span class="black">Likes</span>
-           <img src="images/icon-instagram.svg"/>
-        </div>
-        <div class="bottom">
-          <span class="pig numwhi">5462</span>
-          <div class="right">
-            <img src="images/icon-up.svg"/>
-            <span class="green">2257%</span>
-          </div>
-        </div>
-      </div>
-      <div class="boxx">
-        <div class="top">
-           <span class="black">Profile Views</span>
-           <img src="images/icon-instagram.svg"/>
-        </div>
-        <div class="bottom">
-          <span class="pig numwhi">52k</span>
-          <div class="right">
-            <img src="images/icon-up.svg"/>
-            <span class="green">1375%</span>
-          </div>
-        </div>
-      </div>
-      <div class="boxx">
-        <div class="top">
-           <span class="black">Retweets</span>
-           <img src="images/icon-twitter.svg"/>
-        </div>
-        <div class="bottom">
-          <span class="pig numwhi">117</span>
-          <div class="right">
-            <img src="images/icon-up.svg"/>
-            <span class="green">303%</span>
-          </div>
-        </div>
-      </div>
-      <div class="boxx">
-        <div class="top">
-           <span class="black">Likes</span>
-           <img src="images/icon-twitter.svg"/>
-        </div>
-        <div class="bottom">
-          <span class="pig numwhi">507</span>
-          <div class="right">
-            <img src="images/icon-up.svg"/>
-            <span class="green">553%</span>
-          </div>
-        </div>
-      </div>
-      <div class="boxx">
-        <div class="top">
-           <span class="black">Likes</span>
-           <img src="images/icon-youtube.svg"/>
-        </div>
-        <div class="bottom">
-          <span class="pig numwhi">107</span>
-          <div class="right">
-            <img src="images/icon-down.svg"/>
-            <span class="red">19%</span>
-          </div>
-        </div>
-      </div>
-      <div class="boxx">
-        <div class="top">
-           <span class="black">Total Views</span>
-           <img src="images/icon-youtube.svg"/>
-        </div>
-        <div class="bottom">
-          <span class="pig numwhi">1407</span>
-          <div class="right">
-            <img src="images/icon-down.svg"/>
-            <span class="red">12%</span>
-          </div>
-        </div>
-      </div>
-     </div>
-    </div>
 
-  </div>
-</div>
-  
-  
-  
-  
-  
- <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
